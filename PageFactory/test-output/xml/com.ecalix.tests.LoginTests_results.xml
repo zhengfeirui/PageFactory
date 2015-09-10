@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Regression1"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.030">
+  <properties />
+  
+  
+            <testcase name="Login01" time="2.253" classname="com.ecalix.tests.LoginTests" />
+                <testcase name="Login02" time="1.777" classname="com.ecalix.tests.LoginTests" />
+      
+</testsuite>

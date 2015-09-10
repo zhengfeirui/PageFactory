@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="13756" started-at="2015-08-01T18:08:23Z" finished-at="2015-08-01T18:08:36Z">
+    <groups>
+    </groups>
+    <test name="Regression1" duration-ms="13756" started-at="2015-08-01T18:08:23Z" finished-at="2015-08-01T18:08:36Z">
+      <class name="com.ecalix.tests.LoginTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecalix.tests.LoginTests@36aa544]" name="setUp" is-config="true" duration-ms="2743" started-at="2015-08-01T11:08:23Z" finished-at="2015-08-01T11:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login01()[pri:0, instance:com.ecalix.tests.LoginTests@36aa544]" name="Login01" duration-ms="3604" started-at="2015-08-01T11:08:25Z" finished-at="2015-08-01T11:08:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login01 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecalix.tests.LoginTests@36aa544]" name="tearDown" is-config="true" duration-ms="620" started-at="2015-08-01T11:08:29Z" finished-at="2015-08-01T11:08:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecalix.tests.LoginTests@36aa544]" name="setUp" is-config="true" duration-ms="2691" started-at="2015-08-01T11:08:30Z" finished-at="2015-08-01T11:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login02()[pri:0, instance:com.ecalix.tests.LoginTests@36aa544]" name="Login02" duration-ms="3353" started-at="2015-08-01T11:08:32Z" finished-at="2015-08-01T11:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login02 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecalix.tests.LoginTests@36aa544]" name="tearDown" is-config="true" duration-ms="728" started-at="2015-08-01T11:08:36Z" finished-at="2015-08-01T11:08:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecalix.tests.LoginTests -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>

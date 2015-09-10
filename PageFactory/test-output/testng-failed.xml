@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="org.testng.reporters.FailedReporter"/>
+  </listeners>
+  <test name="Regression1(failed)">
+    <classes>
+      <class name="com.ecalix.tests.LoginTests">
+        <methods>
+          <include name="Login02"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ecalix.tests.LoginTests -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
